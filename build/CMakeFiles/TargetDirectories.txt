@@ -1,0 +1,3 @@
+/Users/dmitrijsterligov/project/First_repos/build/CMakeFiles/First_repos.dir
+/Users/dmitrijsterligov/project/First_repos/build/CMakeFiles/edit_cache.dir
+/Users/dmitrijsterligov/project/First_repos/build/CMakeFiles/rebuild_cache.dir
