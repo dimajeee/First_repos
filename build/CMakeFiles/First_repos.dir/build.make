@@ -73,15 +73,15 @@ CMakeFiles/First_repos.dir/src/main.cpp.o: CMakeFiles/First_repos.dir/flags.make
 CMakeFiles/First_repos.dir/src/main.cpp.o: /Users/dmitrijsterligov/project/First_repos/src/main.cpp
 CMakeFiles/First_repos.dir/src/main.cpp.o: CMakeFiles/First_repos.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitrijsterligov/project/First_repos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/First_repos.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/First_repos.dir/src/main.cpp.o -MF CMakeFiles/First_repos.dir/src/main.cpp.o.d -o CMakeFiles/First_repos.dir/src/main.cpp.o -c /Users/dmitrijsterligov/project/First_repos/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/First_repos.dir/src/main.cpp.o -MF CMakeFiles/First_repos.dir/src/main.cpp.o.d -o CMakeFiles/First_repos.dir/src/main.cpp.o -c /Users/dmitrijsterligov/project/First_repos/src/main.cpp
 
 CMakeFiles/First_repos.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/First_repos.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitrijsterligov/project/First_repos/src/main.cpp > CMakeFiles/First_repos.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitrijsterligov/project/First_repos/src/main.cpp > CMakeFiles/First_repos.dir/src/main.cpp.i
 
 CMakeFiles/First_repos.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/First_repos.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitrijsterligov/project/First_repos/src/main.cpp -o CMakeFiles/First_repos.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitrijsterligov/project/First_repos/src/main.cpp -o CMakeFiles/First_repos.dir/src/main.cpp.s
 
 # Object files for target First_repos
 First_repos_OBJECTS = \
