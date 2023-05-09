@@ -129,6 +129,30 @@ First_repos/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/First_repos.dir/build.make CMakeFiles/First_repos.dir/build
 .PHONY : First_repos/fast
 
+sourses/newfile1.o: sourses/newfile1.cpp.o
+.PHONY : sourses/newfile1.o
+
+# target to build an object file
+sourses/newfile1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/First_repos.dir/build.make CMakeFiles/First_repos.dir/sourses/newfile1.cpp.o
+.PHONY : sourses/newfile1.cpp.o
+
+sourses/newfile1.i: sourses/newfile1.cpp.i
+.PHONY : sourses/newfile1.i
+
+# target to preprocess a source file
+sourses/newfile1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/First_repos.dir/build.make CMakeFiles/First_repos.dir/sourses/newfile1.cpp.i
+.PHONY : sourses/newfile1.cpp.i
+
+sourses/newfile1.s: sourses/newfile1.cpp.s
+.PHONY : sourses/newfile1.s
+
+# target to generate assembly for a file
+sourses/newfile1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/First_repos.dir/build.make CMakeFiles/First_repos.dir/sourses/newfile1.cpp.s
+.PHONY : sourses/newfile1.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... First_repos"
+	@echo "... sourses/newfile1.o"
+	@echo "... sourses/newfile1.i"
+	@echo "... sourses/newfile1.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

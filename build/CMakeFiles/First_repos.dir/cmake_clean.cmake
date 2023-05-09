@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/First_repos.dir/sourses/newfile1.cpp.o"
+  "CMakeFiles/First_repos.dir/sourses/newfile1.cpp.o.d"
   "CMakeFiles/First_repos.dir/src/main.cpp.o"
   "CMakeFiles/First_repos.dir/src/main.cpp.o.d"
   "First_repos"
